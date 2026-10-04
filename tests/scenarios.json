@@ -1,0 +1,227 @@
+[
+  {
+    "name": "01_parallel_lanes",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "release": 0
+      }
+    ],
+    "limit": 4,
+    "capacity": 3,
+    "tides": []
+  },
+  {
+    "name": "02_crossing",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          1,
+          0,
+          3
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          2,
+          3,
+          2
+        ],
+        "release": 0
+      }
+    ],
+    "limit": 5,
+    "capacity": 3,
+    "tides": []
+  },
+  {
+    "name": "03_echo_at_exit",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          0,
+          2,
+          4
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          1,
+          4,
+          0
+        ],
+        "release": 0
+      }
+    ],
+    "limit": 5,
+    "capacity": 3,
+    "tides": []
+  },
+  {
+    "name": "04_designer_crossing",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          2,
+          3,
+          4
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "release": 0
+      },
+      {
+        "name": "C",
+        "route": [
+          4,
+          3,
+          2
+        ],
+        "release": 0
+      }
+    ],
+    "limit": 6,
+    "capacity": 3,
+    "tides": []
+  },
+  {
+    "name": "05_six_ship_probe",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "release": 0
+      },
+      {
+        "name": "C",
+        "route": [
+          3,
+          2,
+          6,
+          0
+        ],
+        "release": 0
+      },
+      {
+        "name": "D",
+        "route": [
+          4,
+          1,
+          5,
+          2
+        ],
+        "release": 6
+      },
+      {
+        "name": "E",
+        "route": [
+          5,
+          2,
+          6,
+          3
+        ],
+        "release": 6
+      },
+      {
+        "name": "F",
+        "route": [
+          7,
+          6,
+          0,
+          4
+        ],
+        "release": 6
+      }
+    ],
+    "limit": 18,
+    "capacity": 3,
+    "tides": []
+  },
+  {
+    "name": "06_tide_crossing",
+    "ships": [
+      {
+        "name": "A",
+        "route": [
+          2,
+          3,
+          4
+        ],
+        "release": 0
+      },
+      {
+        "name": "B",
+        "route": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "release": 0
+      },
+      {
+        "name": "C",
+        "route": [
+          4,
+          3,
+          2
+        ],
+        "release": 0
+      }
+    ],
+    "limit": 5,
+    "capacity": 3,
+    "tides": [
+      [
+        3,
+        12
+      ]
+    ]
+  }
+]

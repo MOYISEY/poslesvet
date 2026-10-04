@@ -1,0 +1,9 @@
+{
+  "title": "Послесвет",
+  "description": "Пошаговая игра о маяке: спасайте корабли, планируйте возвращение теней и используйте прилив. Плавная анимация, синтезированный звук, отмена ходов и сохранение прогресса.",
+  "stack": ["Godot 4.7.2", "GDScript", "Python", "WebAssembly"],
+  "image": "docs/tide.png",
+  "demo": "https://moyisey.github.io/poslesvet/",
+  "source": "https://github.com/MOYISEY/poslesvet",
+  "windows": "https://github.com/MOYISEY/poslesvet/releases/latest"
+}

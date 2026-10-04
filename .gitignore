@@ -1,0 +1,9 @@
+.godot/
+build/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+progress*.json
+tests/*report*.json
